@@ -31,7 +31,6 @@ class LineSegment:
     def __str__(self):
         return f"Đoạn thẳng từ {self.__d1} đến {self.__d2}"
 
-
 s1 = LineSegment() 
 s2 = LineSegment.from_copy(s1)
 
