@@ -1,4 +1,3 @@
-
 minutes = 42
 seconds_remainder = 42
 total_seconds = (minutes * 60) + seconds_remainder
