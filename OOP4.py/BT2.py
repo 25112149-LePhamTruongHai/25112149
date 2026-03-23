@@ -6,7 +6,6 @@ class Point:
 
 class LineSegment:
     def __init__(self, d1=None, d2=None, x1=None, y1=None, x2=None, y2=None):
-        # 1. Constructor 4 đối số nguyên: (int x1, int y1, int x2, int y2)
         if x1 is not None and y1 is not None:
             self.__d1 = Point(x1, y1)
             self.__d2 = Point(x2, y2)
